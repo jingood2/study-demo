@@ -66,7 +66,6 @@ jobs:
       matrix:
         path:
           - dev
-          - prod
     env:
       GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       EXPAND_SUMMARY_DETAILS: true
